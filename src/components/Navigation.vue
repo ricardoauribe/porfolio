@@ -16,13 +16,11 @@
             <v-toolbar-side-icon class="hidden-md-and-up" @click="drawer = !drawer"></v-toolbar-side-icon>
             <v-spacer class="hidden-md-and-up"></v-spacer>
             <v-img src="https://assets.logrocket.io/img/logo.png" max-width="120px" max-height="25px"></v-img>
-            <v-btn flat class="hidden-sm-and-down">Pricing</v-btn>
+            <v-btn flat class="hidden-sm-and-down">Timelapse</v-btn>
             <v-spacer class="hidden-sm-and-down"></v-spacer>
-            <v-btn flat class="hidden-sm-and-down">Customers</v-btn>
-            <v-btn flat class="hidden-sm-and-down">Docs</v-btn>
-            <v-btn flat class="hidden-sm-and-down">Blog</v-btn>
-            <v-btn flat class="hidden-sm-and-down">Login</v-btn>
-            <v-btn color="purple darken-3" class="hidden-sm-and-down">Sign Up</v-btn>
+            <v-btn flat class="hidden-sm-and-down">Skills</v-btn>
+            <v-btn flat class="hidden-sm-and-down">Projects</v-btn>
+            <v-btn flat class="hidden-sm-and-down">Links</v-btn>
         </v-toolbar>
     </span>
 </template>
@@ -34,12 +32,10 @@ export default {
         return {
             drawer: false,
             menus: [
-                { value: 'Pricing' },
-                { value: 'Customers' },
-                { value: 'Docs' },
-                { value: 'Blog' },
-                { value: 'Login' },
-                { value: 'Sign Up' }
+                { value: 'Timelapse' },
+                { value: 'Skills' },
+                { value: 'Projects' },
+                { value: 'Links' }
             ]
         };
     }

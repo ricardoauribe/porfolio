@@ -1,8 +1,7 @@
 <template>
     <v-container grid-list-lg>
         <v-layout column>
-            <v-flex class="text-xs-center display-1 my-5">Pricing</v-flex>
-            <v-flex class="text-xs-center display-1 font-weight-black">Plans that scale with your user growth</v-flex>
+            <v-flex class="text-xs-center display-1 my-5">Ricardo Uribe</v-flex>
         </v-layout>
         <v-layout row wrap>
             <v-flex>
